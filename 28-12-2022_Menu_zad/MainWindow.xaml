@@ -24,7 +24,7 @@
                 </MenuItem>
             </MenuItem>
             <MenuItem Name="Ex" Header="свойства">
-                <MenuItem Name="solid" Header="Жирный">
+                <MenuItem Name="solid" Header="Жирный" Click="solid_Click">
 
                 </MenuItem>
                 <MenuItem Name="cyrText" Header="курсив">

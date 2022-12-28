@@ -62,5 +62,11 @@ namespace _28_12_2022_Menu_zad
             }
            
         }
+
+        private void solid_Click(object sender, RoutedEventArgs e)
+        {
+            textBox.FontStyle = FontStyles.Italic;
+                   //result_Bold = true;
+        }
     }
 }
