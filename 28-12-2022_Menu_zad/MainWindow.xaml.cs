@@ -36,6 +36,7 @@ namespace _28_12_2022_Menu_zad
 
         private void open_Click(object sender, RoutedEventArgs e)
         {
+            textBox.Text = "";
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
             if (openFileDialog.ShowDialog() == true)
